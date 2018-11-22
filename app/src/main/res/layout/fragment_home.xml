@@ -12,38 +12,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ListView
-            android:id="@+id/list"
-            android:layout_below="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
 
-        <RelativeLayout
-            android:id="@+id/empty_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true">
-
-            <TextView
-                android:id="@+id/no_reminder_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:padding="16dp"
-                android:gravity="center"
-                android:text="Click on the add button to add an alarm"/>
-        </RelativeLayout>
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab"
+        <Button
+            android:id="@+id/goToAct"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_margin="@dimen/fab_margin"
-            android:src="@drawable/ic_add"
-            app:backgroundTint="@color/colorPrimary"
-            app:fabSize="normal"/>
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="201dp"
+            android:text="Click here to check your Medicines" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="154dp"
+            android:text="MEDIMINDER"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 </FrameLayout>
